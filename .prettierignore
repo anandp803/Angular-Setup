@@ -1,0 +1,53 @@
+# Compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+
+# Dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+/*.launch
+/.settings/
+/*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Miscellaneous
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log*
+yarn-error.log*
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Application-specific
+index.html
+package-lock.json
+yarn.lock
+
+# Ignore artifacts
+build/
+coverage/
+
+# Ignore Cypress and testing-related directories
+cypress/
+documentation/
+ui/
+e2e/
