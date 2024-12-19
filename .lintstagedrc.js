@@ -14,10 +14,10 @@ const removeIgnoredFiles = async (files) => {
 module.exports = {
   'src/**/*.{js,ts,html,scss}': async (files) => {
     const filesToLint = await removeIgnoredFiles(files);
-    return [`npx prettier --write ${filesToLint}`];
+    return [`npx prettier --write "${filesToLint}"`];
   },
   'src/**/*.{js,ts,html}': async (files) => {
     const filesToLint = await removeIgnoredFiles(files);
-    return [`npx eslint ${filesToLint}`];
+    return [`npx eslint "${filesToLint}"`];
   },
 };

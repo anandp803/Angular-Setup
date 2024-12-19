@@ -9,7 +9,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'FinProWeb';
+  title = 'FinProWeb2';
   ngOnInit(){
     let a =0;
     console.log(a);
